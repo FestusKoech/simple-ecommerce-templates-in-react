@@ -1,0 +1,107 @@
+.main{
+  text-align:center;
+  justify-content: center;
+  display:flex;
+  padding: 90px 0 200px 0;
+  background-color: rgb(241, 239, 239);
+}
+.sub-main{
+  display: flex;
+  height: 350px;
+  width: 350px;
+  justify-content: center;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0);
+  padding-top: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+.imgs{
+  padding-top: 20px;
+  justify-content: center;
+  display: flex;
+}
+.profile-container{
+  border-radius: 150px;
+  align-items: center;
+  display: flex;
+  height: 20px; 
+}
+.profile{
+  height: 50px;
+  width: 50px;
+  border-radius: 150px;
+  align-items: center;
+}
+
+.Login{
+  padding-top: 30px;
+  background-color:red;
+  text-align: center;
+}
+.input{
+  border-radius: 7px;
+  width: 250px;
+  height: 25px;
+  text-align: center;
+  box-shadow: inset 0px 0px 3px 0px;
+  border: none;
+
+}
+.email{
+  height:15px;
+  width: 13px;
+  position: absolute;
+  margin-top: 5px;
+  padding-left: 10px;
+  
+}
+.password{
+  height:10px;
+  width: 10px;
+  position: absolute;
+  margin-top: 8px;
+  padding-left: 12.5px;
+ 
+}
+.loginPage{
+  padding-top: 20px;
+}
+.passInput{
+  padding-top: 20px;
+}
+.loginButton{
+  background-color: darkgreen;
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  Color: white;
+
+}
+.loginDiv{
+  padding-top: 20px;
+}
+.resetPassword{
+  font-size: small;
+}
+.signup{
+  font-size: small;
+
+}
+
+.App-Header{
+  background-color: black;
+  height: 50px;
+}
+.header{
+  color:rgb(241, 239, 239);
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.appMain{
+  background-color: aliceblue;
+}
+.sub-appMain{
+  margin-top: 100px;
+  background-color: grey;
+}

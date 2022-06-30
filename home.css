@@ -1,0 +1,115 @@
+.main{
+    width: 100%;
+    height: auto;
+    background-color: rgb(205, 232, 245);
+    display : flex;
+    flex-direction: row;
+    justify-content : space-around;
+    flex-flow : wrap;
+    margin-bottom: 250px;
+
+
+}
+
+.sub-main{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 250px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: white;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+    
+}
+
+.container{
+   
+    height: 300px;
+    width: 100%;  
+    box-shadow:  1px 1px  1px rgb(0, 0, 0);
+    background-color: rgb(248, 237, 237);
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+    margin-bottom: 40px;
+    align-self: center;
+    border-radius: 5px;
+   
+   
+}
+.btn {
+    display: flex;
+    background-color: darkgreen;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    Color: white;
+    margin-top: 115%;
+    margin-left: 33%;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+        
+  }
+  .btn:hover {
+    background-color: black;
+    
+  }
+/* 
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+
+  }
+  .Box{
+    padding: 80px 60px;
+    background: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+  }
+  .Column{
+    display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 60px;
+  }
+  .Row{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 
+                           minmax(185px, 1fr));
+    grid-gap: 20px;
+     
+    @media (max-width: 1000px) {
+      grid-template-columns: repeat(auto-fill, 
+                             minmax(200px, 1fr));
+    }
+  }
+
+  .FooterLink{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-decoration: none;
+  }
+.FooterLink:hover {
+        color: green;
+        transition: 200ms ease-in;
+  }
+.Heading{ 
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 40px;
+  font-weight: bold;
+} */
