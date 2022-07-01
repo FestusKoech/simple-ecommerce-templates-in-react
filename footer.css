@@ -1,3 +1,19 @@
 .footer{
-    margin-top: 1000px;
+
+    background-color: rgb(0, 0, 0);
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.ftext{
+    color: white;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+.footerH{
+    text-align: center;
+    color: rgb(206, 212, 245);
+    
 }
