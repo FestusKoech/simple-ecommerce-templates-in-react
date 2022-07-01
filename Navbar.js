@@ -19,7 +19,7 @@ function Navbar() {
   return (
     <nav className="nav">
       <a href="#" className="navH1">
-       Jumia
+      Home Page
       </a>
       <ul className={active}>
         <li className="nav__item">

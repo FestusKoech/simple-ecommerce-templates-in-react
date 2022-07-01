@@ -29,7 +29,7 @@ a {
 .navH1{
   text-transform: uppercase;
   font-size: xxx-large;
-  color: tomato;
+  color: rgb(206, 212, 245);
 }
 
 .nav__menu {

@@ -1,12 +1,12 @@
 .main{
     width: 100%;
     height: auto;
-    background-color: rgb(205, 232, 245);
+    background-color: rgb(6, 12, 15);
     display : flex;
     flex-direction: row;
     justify-content : space-around;
     flex-flow : wrap;
-    margin-bottom: 250px;
+    background-image: url("/src/images/defaultic.jpg");
 
 
 }
@@ -14,8 +14,8 @@
 .sub-main{
     display: flex;
     flex-direction: column;
-    height: 350px;
-    width: 250px;
+    height: auto;
+    width: 1000px;
     box-shadow: 5px 5px 10px rgb(0, 0, 0);
     border-radius: 10px;
     background-color: white;
@@ -24,26 +24,34 @@
     margin-top: 20px;
     margin-right: 20px;
     margin-left: 20px;
-
+    
     
 }
 
-.container{
+.container1{
    
-    height: 300px;
-    width: 100%;  
-    box-shadow:  1px 1px  1px rgb(0, 0, 0);
-    background-color: rgb(248, 237, 237);
+    height: auto;
+    width: 97%;  
+    box-shadow:  5px 5px 10px rgb(0, 0, 0);
+    background-color: rgb(224, 216, 216);
     align-items: center;
     justify-content: space-around;
     gap: 3rem;
-    margin-bottom: 40px;
+    margin-top: 20px;
     align-self: center;
     border-radius: 5px;
-   
+    margin-bottom: 20px;   
    
 }
-.btn {
+.htext{
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* .btn {
     display: flex;
     background-color: darkgreen;
     height: 30px;
@@ -61,7 +69,7 @@
   .btn:hover {
     background-color: black;
     
-  }
+  } */
 /* 
   .container{
     display: flex;
