@@ -1,19 +1,43 @@
-.footer{
-
-    background-color: rgb(0, 0, 0);
-    height: auto;
+.footer {
     width: 100%;
-    margin-top: 20px;
-    
+    background-color: #000;
+    color: #eee;
+    padding: 3rem 1rem;
 }
-.ftext{
-    color: white;
-    margin-left: 25px;
-    margin-right: 25px;
 
-}
-.footerH{
+.footer .container {
+    max-width: 1240px;
+    margin: auto;
     text-align: center;
-    color: rgb(206, 212, 245);
-    
 }
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footer li {
+    padding: 1rem;
+}
+
+.footer li a {
+    color: #fff;
+}
+
+.footer li a:hover {
+    padding-bottom: 12px;
+    border-bottom: 3px solid var(--secondary-color);
+}
+
+.bottom {
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.line {
+    margin-bottom: 1rem;
+}
+
+
+
+

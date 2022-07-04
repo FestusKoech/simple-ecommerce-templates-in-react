@@ -1,33 +1,31 @@
-import React from 'react';
+import React from 'react'
 import './footer.css'
 
-function Footer() {
-
-
-
+const Footer = () => {
     return (
         <div className='footer'>
-           <div>
-            <h1 className='footerH'>Footer details</h1>
-            <p className='ftext'>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, rerum! Distinctio cum deserunt dolor magni harum. Earum adipisci voluptatem molestias expedita, assumenda reiciendis quas ad laboriosam ullam amet quis sunt!
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi omnis autem, at numquam amet tempora quos illo id illum! Totam a quo explicabo! Qui animi temporibus ipsa! At, quidem ut.
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, rerum! Distinctio cum deserunt dolor magni harum. Earum adipisci voluptatem molestias expedita, assumenda reiciendis quas ad laboriosam ullam amet quis sunt!
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi omnis autem, at numquam amet tempora quos illo id illum! Totam a quo explicabo! Qui animi temporibus ipsa! At, quidem ut.
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, rerum! Distinctio cum deserunt dolor magni harum. Earum adipisci voluptatem molestias expedita, assumenda reiciendis quas ad laboriosam ullam amet quis sunt!
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi omnis autem, at numquam amet tempora quos illo id illum! Totam a quo explicabo! Qui animi temporibus ipsa! At, quidem ut.
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, rerum! Distinctio cum deserunt dolor magni harum. Earum adipisci voluptatem molestias expedita, assumenda reiciendis quas ad laboriosam ullam amet quis sunt!
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi omnis autem, at numquam amet tempora quos illo id illum! Totam a quo explicabo! Qui animi temporibus ipsa! At, quidem ut.
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, rerum! Distinctio cum deserunt dolor magni harum. Earum adipisci voluptatem molestias expedita, assumenda reiciendis quas ad laboriosam ullam amet quis sunt!
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi omnis autem, at numquam amet tempora quos illo id illum! Totam a quo explicabo! Qui animi temporibus ipsa! At, quidem ut.
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, rerum! Distinctio cum deserunt dolor magni harum. Earum adipisci voluptatem molestias expedita, assumenda reiciendis quas ad laboriosam ullam amet quis sunt!
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi omnis autem, at numquam amet tempora quos illo id illum! Totam a quo explicabo! Qui animi temporibus ipsa! At, quidem ut.
-              </p>
-              </div>  
-            
-             
+            <div className='container'>
+                <ul>
+                    <li className='nav-item'>
+                        <a href='/'>Home</a>
+                    </li>
+                    <li className='nav-item'>
+                        <a href='#about'>About</a>
+                    </li>
+                    <li className='nav-item'>
+                        <a href='#testimonials'>Testimonials</a>
+                    </li>
+                    <li className='nav-item'>
+                        <a href='#demo'>Demo</a>
+                    </li>
+                </ul>
+                <div className='bottom'>
+                    <span className='line'></span>
+                    <p>2020 Execute, Inc. All rights reserved</p>
+                </div>
+            </div>
         </div>
-    );
+    )
 }
 
-export default Footer;
+export default Footer

@@ -6,7 +6,7 @@
     flex-direction: row;
     justify-content : space-around;
     flex-flow : wrap;
-    background-image: url("/src/images/defaultic.jpg");
+    background-image: url"('./src/images/defaultic.jpg')";
 
 
 }
